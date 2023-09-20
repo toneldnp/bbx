@@ -1,1 +1,1 @@
-console.log('Hello world')
+export const meat = 20
