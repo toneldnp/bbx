@@ -1,6 +1,6 @@
 {
   "name": "@toneldnp/bbx",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,13 @@
     "url": "git+ssh://git@github.com/toneldnp/bbx.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "react": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.16.0",
+    "use-debounce": "^9.0.4"
+  }
 }
