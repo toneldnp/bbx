@@ -73,6 +73,19 @@ export type DashboardContext = {
     trucks: Array<any>,
     date: string,
     columns: any,
+    dates: {
+        startDate: string,
+        endDate: string,
+    },
+    productUsage: Array<any>,
+    inventoryBySales: Array<any>,
+    selectedProduct: any,
+    selectedTruck: any,
+    selectedCustomer: any,
+    selectedVendor: any,
+    customerData: any,
+    vendorData: any,
+    truckMtces: any,
 }
 
 export type TruckForm = {number: string, model: string, operator: string, phone: string}
